@@ -84,6 +84,60 @@ class IDCard extends StatelessWidget {
                 )
               ],
             ),
+            SizedBox(height: 30.0,),
+            Row(
+              children: <Widget>[
+                Icon(
+                  Icons.contact_phone,
+                  color: Colors.grey[400],
+                ),
+                SizedBox(width: 10.0,),
+                Text(
+                  '7378636563',
+                  style: TextStyle(
+                    color: Colors.grey[400],
+                    fontSize: 18.0,
+                    letterSpacing: 1.0,
+                  ),
+                )
+              ],
+            ),
+            SizedBox(height: 30.0,),
+            Row(
+              children: <Widget>[
+                Icon(
+                  Icons.assignment_outlined,
+                  color: Colors.grey[400],
+                ),
+                SizedBox(width: 10.0,),
+                Text(
+                  'https://github.com/JerinPaulS',
+                  style: TextStyle(
+                    color: Colors.grey[400],
+                    fontSize: 18.0,
+                    letterSpacing: 1.0,
+                  ),
+                )
+              ],
+            ),
+            SizedBox(height: 30.0,),
+            Row(
+              children: <Widget>[
+                Icon(
+                  Icons.connect_without_contact,
+                  color: Colors.grey[400],
+                ),
+                SizedBox(width: 10.0,),
+                Text(
+                  'https://linkedin.com/JerinPaulS',
+                  style: TextStyle(
+                    color: Colors.grey[400],
+                    fontSize: 18.0,
+                    letterSpacing: 1.0,
+                  ),
+                )
+              ],
+            ),
           ],
         ),
         ),
